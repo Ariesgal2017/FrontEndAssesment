@@ -1,4 +1,7 @@
-#This is what I have come accross so far.
+
+**#This is what they want it to be.**
+https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/f-3/99398f01-c407-4e28-a8bc-ccaa440b6353/f-2%20part5.webm
+**#This is what I have come accross so far.**
 ![Screen Shot 2021-05-03 at 6 57 51 PM](https://user-images.githubusercontent.com/42827502/116950639-3e23f280-ac4b-11eb-8fa6-b201777b9805.png)
 # FrontEndAssesment
 This is the assesment challenge I am doing for Hatchways. I am provided witht the JSON data of a student collection and have to implement the following front end development. I am using angular framework for this.
