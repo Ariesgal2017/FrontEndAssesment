@@ -1,15 +1,16 @@
 
 **#This is what they want it to be.**
 https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/f-3/99398f01-c407-4e28-a8bc-ccaa440b6353/f-2%20part5.webm
-
-
-#This is what I have come accross so far. Search/Accordian/Scroll works fine as expected!
-<img width="1277" alt="Screen Shot 2021-05-05 at 1 26 40 AM" src="https://user-images.githubusercontent.com/42827502/117104068-19aa4200-ad41-11eb-9cfa-b32b7e10c2fc.png">
-<img width="1277" alt="Screen Shot 2021-05-05 at 1 26 49 AM" src="https://user-images.githubusercontent.com/42827502/117104071-1adb6f00-ad41-11eb-9840-7c186ef73a0b.png">
-<img width="1277" alt="Screen Shot 2021-05-05 at 1 27 10 AM" src="https://user-images.githubusercontent.com/42827502/117104075-1b740580-ad41-11eb-9996-f372b47e960f.png">
-
 # FrontEndAssesment
 This is the assesment challenge I am doing for Hatchways. I am provided witht the JSON data of a student collection and have to implement the following front end development. I am using angular framework for this.
+
+#This is what I have come accross so far. Search/Accordian/Scroll works fine as expected!
+<img width="1277" alt="Screen Shot 2021-05-05 at 2 16 49 PM" src="https://user-images.githubusercontent.com/42827502/117196979-d2f23180-adac-11eb-83ac-623bb6f0b443.png">
+<img width="1277" alt="Screen Shot 2021-05-05 at 2 17 09 PM" src="https://user-images.githubusercontent.com/42827502/117196984-d4235e80-adac-11eb-8e3a-5f96f3ad86d4.png">
+<img width="1277" alt="Screen Shot 2021-05-05 at 2 17 24 PM" src="https://user-images.githubusercontent.com/42827502/117196988-d4bbf500-adac-11eb-8731-bd75efaba820.png">
+<img width="1277" alt="Screen Shot 2021-05-05 at 2 18 02 PM" src="https://user-images.githubusercontent.com/42827502/117196990-d4bbf500-adac-11eb-9fdc-a5039fee17e7.png">
+
+
 
 JSON data is as follows:
 
