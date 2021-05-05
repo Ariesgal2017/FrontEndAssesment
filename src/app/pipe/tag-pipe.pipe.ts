@@ -10,16 +10,14 @@ export class TagPipePipe implements PipeTransform {
     if (!student || !searchTag) {
       return student;
     }
-    // @ts-ignore
-    // tslint:disable-next-line:no-shadowed-variable
-    return student.filter(student => {
-      // tslint:disable-next-line:prefer-for-of
-      for (let i = 0; i < student.tagArray.length; i++) {
-        // tslint:disable-next-line:no-unused-expression
-       if (student.tagArray[i].toLowerCase().match(searchTag.toLowerCase())){
-          student = student.tagArray;
-       }
-      }
-    });
-  }
+      // @ts-ignore
+      // tslint:disable-next-line:no-shadowed-variable
+    return student.filter((student) => {
+        // tslint:disable-next-line:prefer-for-of
+        for (let i = 0; i < student.tagArray.length; i++) {
+          // tslint:disable-next-line:no-unused-expression
+          return  student.tagArray[i].toLowerCase().match(searchTag.toLowerCase());
+        }
+      });
+    }
 }

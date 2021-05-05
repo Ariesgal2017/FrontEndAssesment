@@ -11,7 +11,9 @@ export class SearchPipe implements PipeTransform {
     // @ts-ignore
     // tslint:disable-next-line:no-shadowed-variable
     return student.filter( student =>
-      student.firstName.toLowerCase().match(searchTerm.toLowerCase()) || student.lastName.toLowerCase().match(searchTerm.toLowerCase())
+        // tslint:disable-next-line:no-unused-expression
+        student.firstName.toLowerCase().match(searchTerm.toLowerCase()) ||
+        student.lastName.toLowerCase().match(searchTerm.toLowerCase())
     );
   }
 }
