@@ -1,10 +1,11 @@
+<img width="1280" alt="Screen Shot 2021-05-05 at 6 11 48 PM" src="https://user-images.githubusercontent.com/42827502/117220727-6b98a980-adcd-11eb-86f5-9a8140f4518d.png">
 
 # FrontEndAssesment
 This is the assesment challenge I am doing for Hatchways. I am provided witht the JSON data of a student collection and have to implement the following front end development. I am using angular framework for this.
 **#This is what they want it to be.**
 https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/f-3/99398f01-c407-4e28-a8bc-ccaa440b6353/f-2%20part5.webm
 
-#This is what I have come accross so far. Search/Accordian/Scroll works fine as expected!
+#This is what I have come accross so far in two days. Search/Accordian/Scroll/SearchTag works fine as expected!
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 16 49 PM" src="https://user-images.githubusercontent.com/42827502/117196979-d2f23180-adac-11eb-83ac-623bb6f0b443.png">
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 17 09 PM" src="https://user-images.githubusercontent.com/42827502/117196984-d4235e80-adac-11eb-8e3a-5f96f3ad86d4.png">
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 17 24 PM" src="https://user-images.githubusercontent.com/42827502/117196988-d4bbf500-adac-11eb-8731-bd75efaba820.png">
