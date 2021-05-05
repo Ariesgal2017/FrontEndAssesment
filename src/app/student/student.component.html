@@ -3,7 +3,6 @@
 
 <div class="container">
   <mat-card class="card">
-    <mat-card-header>
       <div class="searchBoxes">
         <div>
           <input type="text" class="form-control" placeholder="Search by name" [(ngModel)]="searchTerm">
@@ -12,42 +11,13 @@
           <input type="text" class="SearchTag" placeholder="Search by tag" [(ngModel)]="searchTag">
         </div>
       </div>
-    </mat-card-header>
     <mat-card-content>
       <div *ngFor="let student of students | keyvalue" class="cardDataContent">
         <div *ngFor="let data of student.value | search: searchTerm">
-          <div class="card-body">
-            <div class="item1">
-              <label class="hoverable">
-                <img src="{{data.pic}}" class="avatar">
-              </label>
-            </div>
-            <div class="item2">
-              <h1 class="title">{{data.firstName.toUpperCase()}} {{data.lastName.toUpperCase()}}</h1>
-              <div class="item3">
-                <p> Email: {{data.email}}</p>
-                <p>Company: {{data.company}}</p>
-                <p>Skill: {{data.skill}}</p>
-                <p>Average: {{data.average}}% </p>
-                <div>
-                  <input type="text" class="SearchTag" placeholder="Add a tag" [(ngModel)]="inputTag">
-                </div>
-                <div class="content-for-each" id="content" hidden>
-                  <div *ngFor="let marks of data.grades; let i = index">
-                    <p>Test {{i+1}}: {{marks}}%</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item4" id="button">
-              <button id="plusButton" class="btn" (click)="onClickButton();onChange()"><i class="fa fa-plus fa-2x"></i></button>
-            </div>
-          </div>
+          <app-test-score-accordian [studentData]="data"></app-test-score-accordian>
           <hr class="hr">
         </div>
       </div>
     </mat-card-content>
   </mat-card>
 </div>
-
-

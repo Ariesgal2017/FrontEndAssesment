@@ -1,0 +1,20 @@
+.SearchTag{
+  background-color: transparent;
+  color: #1d1d1d;
+  outline: none;
+  outline-style: none;
+  outline-offset: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #e1e5e3 1px;
+  padding: 3px 10px;
+  width: 55%;
+  height: 30px;
+  font-size: 20px;
+  font-family: Raleway;
+
+}
+.SearchTag[type=text]:focus{
+  border-color: #1d1d1d;
+}

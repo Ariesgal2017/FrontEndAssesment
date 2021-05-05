@@ -9,15 +9,22 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatInputModule} from '@angular/material/input';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { SearchPipe } from './pipe/search.pipe';
+import { TestScoreAccordianComponent } from './test-score-accordian/test-score-accordian.component';
+import { SearchComponentComponent } from './search-component/search-component.component';
+import { TagComponentComponent } from './tag-component/tag-component.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentComponent,
-    SearchPipe
+    SearchPipe,
+    TestScoreAccordianComponent,
+    SearchComponentComponent,
+    TagComponentComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,7 +35,9 @@ import { SearchPipe } from './pipe/search.pipe';
     MatGridListModule,
     MatExpansionModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,31 @@
+
+<div class="card-body">
+  <div class="item1">
+    <label class="hoverable">
+      <img src="{{studentData.pic}}" class="avatar">
+    </label>
+  </div>
+  <div class="item2">
+    <h1 class="title">{{studentData.firstName.toUpperCase()}} {{studentData.lastName.toUpperCase()}}</h1>
+    <div class="item3">
+      <p> Email: {{studentData.email}}</p>
+      <p>Company: {{studentData.company}}</p>
+      <p>Skill: {{studentData.skill}}</p>
+      <p>Average: {{studentData.average}}%</p>
+      <app-tag-component></app-tag-component>
+      <div *ngIf="expandGrade" class="content-for-each" id="content">
+        <div *ngFor="let marks of studentData.grades; let i = index">
+          <p>Test {{i+1}}: {{marks}}%</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item4" id="button">
+    <button id="plusButton" class="btn" (click)="onClickButton()">
+      <i  [ngClass]="iconClass"></i>
+    </button>
+  </div>
+</div>
+
+
+
