@@ -15,6 +15,7 @@ import { TestScoreAccordianComponent } from './test-score-accordian/test-score-a
 import { SearchComponentComponent } from './search-component/search-component.component';
 import { TagComponentComponent } from './tag-component/tag-component.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { TagPipePipe } from './pipe/tag-pipe.pipe';
 
 
 @NgModule({
@@ -25,6 +26,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     TestScoreAccordianComponent,
     SearchComponentComponent,
     TagComponentComponent,
+    TagPipePipe,
   ],
   imports: [
     BrowserModule,

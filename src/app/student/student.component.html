@@ -13,7 +13,7 @@
       </div>
     <mat-card-content>
       <div *ngFor="let student of students | keyvalue" class="cardDataContent">
-        <div *ngFor="let data of student.value | search: searchTerm">
+        <div *ngFor="let data of student.value | search: searchTerm | tagPipe: searchTag">
           <app-test-score-accordian [studentData]="data"></app-test-score-accordian>
           <hr class="hr">
         </div>

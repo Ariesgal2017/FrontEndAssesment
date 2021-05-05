@@ -10,4 +10,5 @@ export interface Student {
   pic: any;
   skill: any;
   gradesArray: any;
+  tagArray: any;
 }

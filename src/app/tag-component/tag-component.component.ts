@@ -1,4 +1,4 @@
-import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {Component, OnInit, Output, EventEmitter} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
@@ -7,10 +7,11 @@ import {FormControl, FormGroup, Validators} from '@angular/forms';
   styleUrls: ['./tag-component.component.scss']
 })
 export class TagComponentComponent implements OnInit {
-  @Output() tagInput = new EventEmitter<string>();
   form = new FormGroup({
     tag: new FormControl('', Validators.required)
   });
+
+  @Output() inputEvent = new EventEmitter<string>();
 
   constructor() { }
 
@@ -21,7 +22,7 @@ export class TagComponentComponent implements OnInit {
   onEnter(): any {
     const tagValue = this.form.controls.tag.value;
     this.form.reset();
-    this.tagInput.emit(tagValue);
+    this.inputEvent.emit(tagValue);
   }
 
 }

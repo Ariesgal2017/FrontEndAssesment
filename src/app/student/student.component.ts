@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import {StudentService} from '../services/student.service';
 import {map} from 'rxjs/operators';
 @Component({
@@ -14,14 +14,19 @@ export class StudentComponent implements OnInit {
   // @ts-ignore
   searchTag: string;
   constructor(private studentService: StudentService) {
+    this.getDataAll();
   }
 
   // tslint:disable-next-line:typedef
   ngOnInit() {
+  }
+  // tslint:disable-next-line:typedef
+  getDataAll(){
     this.studentService.getAll().pipe(
       map(res => {
         Object.assign( res, {
-          average: []
+          average: [],
+          tagArray: []
         });
         this.students = res;
         return {
@@ -34,6 +39,7 @@ export class StudentComponent implements OnInit {
               return (a + b);
             });
             student.average = (gradesArrayTotal) / 8 ;
+            student.tagArray = [];
           })
         };
       })
