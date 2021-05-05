@@ -1,5 +1,3 @@
-<img width="1280" alt="Screen Shot 2021-05-05 at 6 11 48 PM" src="https://user-images.githubusercontent.com/42827502/117220727-6b98a980-adcd-11eb-86f5-9a8140f4518d.png">
-
 # FrontEndAssesment
 This is the assesment challenge I am doing for Hatchways. I am provided witht the JSON data of a student collection and have to implement the following front end development. I am using angular framework for this.
 **#This is what they want it to be.**
@@ -10,6 +8,7 @@ https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/fronte
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 17 09 PM" src="https://user-images.githubusercontent.com/42827502/117196984-d4235e80-adac-11eb-8e3a-5f96f3ad86d4.png">
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 17 24 PM" src="https://user-images.githubusercontent.com/42827502/117196988-d4bbf500-adac-11eb-8731-bd75efaba820.png">
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 18 02 PM" src="https://user-images.githubusercontent.com/42827502/117196990-d4bbf500-adac-11eb-9fdc-a5039fee17e7.png">
+<img width="1280" alt="Screen Shot 2021-05-05 at 6 11 48 PM" src="https://user-images.githubusercontent.com/42827502/117220727-6b98a980-adcd-11eb-86f5-9a8140f4518d.png">
 
 
 
