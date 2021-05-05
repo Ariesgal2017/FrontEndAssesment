@@ -12,15 +12,15 @@
       <p>Company: {{studentData.company}}</p>
       <p>Skill: {{studentData.skill}}</p>
       <p>Average: {{studentData.average}}%</p>
-      <app-tag-component (inputEvent)="acceptData($event)" *ngIf="hideTag" ></app-tag-component>
       <div *ngIf="expandGrade" class="content-for-each" id="content">
         <div *ngFor="let marks of studentData.grades; let i = index">
-          <p>Test {{i+1}}: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{marks}}%</p>
+          <p>Test {{i+1}}: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;{{marks}}%</p>
         </div>
       </div>
       <div *ngFor="let data of studentData.tagArray" class="buttonTag">
         <button class="button button4">{{data}}</button>
       </div>
+      <app-tag-component (inputEvent)="acceptData($event)" *ngIf="hideTag" ></app-tag-component>
     </div>
   </div>
   <div class="item4" id="button">

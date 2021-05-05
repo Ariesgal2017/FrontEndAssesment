@@ -17,7 +17,8 @@
   display: inline-block;
   right: 0;
   position: sticky;
-  float: right;
+  margin-left: auto;
+  order: 2;
 }
 .avatar{
   height: 100%;
@@ -53,13 +54,15 @@
   display: inline-flex;
   padding-left: 2%;
   padding-top: 2%;
+  padding-bottom: 2%;
+  size: 20px;
 }
 .button {
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 20px;
   font-family: Raleway;
   background-color: #e7e7e7;
   color: black;

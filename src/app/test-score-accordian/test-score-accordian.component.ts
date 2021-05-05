@@ -24,7 +24,9 @@ export class TestScoreAccordianComponent implements OnInit {
   }
   // tslint:disable-next-line:typedef
   acceptData(data: any) {
-    // tslint:disable-next-line:no-unused-expression
-    this.studentData.tagArray.push(data);
+    if (data !== null && data !== '') {
+      // tslint:disable-next-line:no-unused-expression
+      this.studentData.tagArray.push(data);
+    }
   }
 }

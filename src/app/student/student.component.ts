@@ -1,4 +1,4 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {StudentService} from '../services/student.service';
 import {map} from 'rxjs/operators';
 @Component({
@@ -14,11 +14,11 @@ export class StudentComponent implements OnInit {
   // @ts-ignore
   searchTag: string;
   constructor(private studentService: StudentService) {
-    this.getDataAll();
   }
 
   // tslint:disable-next-line:typedef
   ngOnInit() {
+    this.getDataAll();
   }
   // tslint:disable-next-line:typedef
   getDataAll(){

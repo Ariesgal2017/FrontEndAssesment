@@ -16,7 +16,9 @@ export class TagPipePipe implements PipeTransform {
       // tslint:disable-next-line:prefer-for-of
       for (let i = 0; i < student.tagArray.length; i++) {
         // tslint:disable-next-line:no-unused-expression
-        student.tagArray[i].toLowerCase().match(searchTag.toLowerCase());
+       if (student.tagArray[i].toLowerCase().match(searchTag.toLowerCase())){
+          student = student.tagArray;
+       }
       }
     });
   }
