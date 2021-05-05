@@ -4,7 +4,10 @@ https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/fronte
 
 
 #This is what I have come accross so far. Search/Accordian/Scroll works fine as expected!
-![Screen Shot 2021-05-03 at 6 57 51 PM](https://user-images.githubusercontent.com/42827502/116950639-3e23f280-ac4b-11eb-8fa6-b201777b9805.png)
+<img width="1277" alt="Screen Shot 2021-05-05 at 1 26 40 AM" src="https://user-images.githubusercontent.com/42827502/117104068-19aa4200-ad41-11eb-9cfa-b32b7e10c2fc.png">
+<img width="1277" alt="Screen Shot 2021-05-05 at 1 26 49 AM" src="https://user-images.githubusercontent.com/42827502/117104071-1adb6f00-ad41-11eb-9840-7c186ef73a0b.png">
+<img width="1277" alt="Screen Shot 2021-05-05 at 1 27 10 AM" src="https://user-images.githubusercontent.com/42827502/117104075-1b740580-ad41-11eb-9996-f372b47e960f.png">
+
 # FrontEndAssesment
 This is the assesment challenge I am doing for Hatchways. I am provided witht the JSON data of a student collection and have to implement the following front end development. I am using angular framework for this.
 
