@@ -12,7 +12,6 @@ import {MatInputModule} from '@angular/material/input';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { SearchPipe } from './pipe/search.pipe';
 import { TestScoreAccordianComponent } from './test-score-accordian/test-score-accordian.component';
-import { SearchComponentComponent } from './search-component/search-component.component';
 import { TagComponentComponent } from './tag-component/tag-component.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { TagPipePipe } from './pipe/tag-pipe.pipe';
@@ -24,7 +23,6 @@ import { TagPipePipe } from './pipe/tag-pipe.pipe';
     StudentComponent,
     SearchPipe,
     TestScoreAccordianComponent,
-    SearchComponentComponent,
     TagComponentComponent,
     TagPipePipe,
   ],
