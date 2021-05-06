@@ -1,5 +1,5 @@
 # FrontEndAssesment
-This is the assesment challenge I am doing for Hatchways. I am provided witht the JSON data of a student collection and have to implement the following front end development. I am using angular framework for this.
+Only For Desktop!!! This is an assessment done by me for HatchWays on Angular 11.2.11 from a JSON API. You can find the API here: https://api.hatchways.io/assessment/students. This app includes uses of Angular schematics such as Pipe, PipeTransform/Module/Interface/Services/Directive and so on. You can search users with their first or last name or even create a tag and then search by tag. Since, the tags are not posted to backend, tag will disappear after one session. Check it out !!!
 **#This is what they want it to be.**
 https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/f-3/99398f01-c407-4e28-a8bc-ccaa440b6353/f-2%20part5.webm
 
