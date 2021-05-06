@@ -13,11 +13,13 @@ export class TagPipePipe implements PipeTransform {
       // @ts-ignore
       // tslint:disable-next-line:no-shadowed-variable
     return student.filter((student) => {
-        // tslint:disable-next-line:prefer-for-of
-        for (let i = 0; i < student.tagArray.length; i++) {
-          // tslint:disable-next-line:no-unused-expression
-          return  student.tagArray[i].toLowerCase().match(searchTag.toLowerCase());
+      for (const [key, value ] of Object.entries(student.tagArray)) {
+        // @ts-ignore
+        if (value.toLowerCase().match(searchTag.toLowerCase()) || value.toUpperCase().match(searchTag.toUpperCase())){
+            // @ts-ignore
+          return (value.toLowerCase().match(searchTag.toLowerCase()) || value.toUpperCase().match(searchTag.toUpperCase()));
         }
-      });
+      }
+    });
     }
 }

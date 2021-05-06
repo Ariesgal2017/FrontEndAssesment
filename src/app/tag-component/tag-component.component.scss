@@ -18,3 +18,8 @@
 .SearchTag[type=text]:focus{
   border-color: #1d1d1d;
 }
+::placeholder {
+  color: #dcdcdc;
+  opacity: 1;
+  font-size: 17px;
+}
