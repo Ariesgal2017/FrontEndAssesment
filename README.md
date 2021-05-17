@@ -4,6 +4,7 @@ This is an assessment done by me for HatchWays on Angular 11.2.11 from a JSON AP
 https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/f-3/99398f01-c407-4e28-a8bc-ccaa440b6353/f-2%20part5.webm
 
 #This is what I have come accross so far in two days. Search/Accordian/Scroll/SearchTag works fine as expected!
+https://master.d12cikjnvp7oc8.amplifyapp.com/
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 16 49 PM" src="https://user-images.githubusercontent.com/42827502/117196979-d2f23180-adac-11eb-83ac-623bb6f0b443.png">
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 17 09 PM" src="https://user-images.githubusercontent.com/42827502/117196984-d4235e80-adac-11eb-8e3a-5f96f3ad86d4.png">
 <img width="1277" alt="Screen Shot 2021-05-05 at 2 17 24 PM" src="https://user-images.githubusercontent.com/42827502/117196988-d4bbf500-adac-11eb-8731-bd75efaba820.png">
